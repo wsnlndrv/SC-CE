@@ -1,8 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8; -*-
 
-import a2s, sys, os, re, requests, time
+import a2s
 
-IP = ("x.x.x.x", 28015) #Servidor oficial nºxxxx de Conan Exiles
-listado= a2s.players(IP)
-print(*listado, sep = "\n")
+l1 = a2s.players("0.0.0.0", 30815)
+l2 = a2s.info("0.0.0.0", 30815)
+
+print(*l1, sep = "\n")
+print(*l2, sep = "\n")
