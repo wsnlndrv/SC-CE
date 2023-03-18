@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8; -*-
 
+# Para usarlo en wintendows hay que suprimir la primera linea.
+# Y la linea 30, cambiar "clear" por "cls"
+
 import threading, time, a2s, os, sys, datetime
 import pandas as pd
 
